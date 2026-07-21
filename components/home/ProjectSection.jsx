@@ -4,50 +4,42 @@ import ProjectCard from "./ProjectCard";
 
 const imageData = [
   {
-    title: "Sprite Marketing",
-    year: 2017,
+    title: "100n",
     src: "/assets/images/image-1.png",
     span: "lg:col-span-4",
   },
   {
-    title: "Sprite Marketing",
-    year: 2017,
+    title: "Anemone Vinkel",
     src: "/assets/images/image-2.png",
     span: "lg:col-span-5",
   },
   {
-    title: "Sprite Marketing",
-    year: 2017,
+    title: "KortYard",
     src: "/assets/images/image-3.png",
     span: "lg:col-span-3",
   },
   {
-    title: "Sprite Marketing",
-    year: 2017,
+    title: "IceTub",
     src: "/assets/images/image-4.png",
     span: "lg:col-span-5",
   },
   {
-    title: "Sprite Marketing",
-    year: 2017,
+    title: "rudra techno feeds",
     src: "/assets/images/image-5.png",
     span: "lg:col-span-3",
   },
   {
-    title: "Sprite Marketing",
-    year: 2017,
+    title: "bathula builders",
     src: "/assets/images/image-6.png",
     span: "lg:col-span-4",
   },
   {
-    title: "Sprite Marketing",
-    year: 2017,
+    title: "detox bar",
     src: "/assets/images/image-7.png",
     span: "lg:col-span-4",
   },
   {
-    title: "Sprite Marketing",
-    year: 2017,
+    title: "Anjaneya Jewellers",
     src: "/assets/images/image-8.png",
     span: "lg:col-span-8",
   },
