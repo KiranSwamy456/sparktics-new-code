@@ -19,4 +19,29 @@ export const blogs = [
     src: "/assets/images/blogs/blog4_external.png",
     slug: "ai-driven-marketing-in-india-2025",
   },
+  {
+    title: "Social Media Marketing Hyderabad",
+    src: "/assets/images/blogs/blog5_external.png",
+    slug: "social-media-marketing-hyderabad",
+  },
+  {
+    title: "SEO Services in Hyderabad vs PPC",
+    src: "/assets/images/blogs/blog6_external.png",
+    slug: "seo-services-in-hyderabad-vs-ppc",
+  },
+  {
+    title: "Answer Engine Optimization AEO",
+    src: "/assets/images/blogs/blog7_external.png",
+    slug: "answer-engine-optimization-aeo",
+  },
+  {
+    title: "Generative Engine Optimization",
+    src: "/assets/images/blogs/blog8_external.png",
+    slug: "generative-engine-optimization",
+  },
+  {
+    title: "Social Commerce India",
+    src: "/assets/images/blogs/blog9_external.png",
+    slug: "social-commerce-india",
+  },
 ];
