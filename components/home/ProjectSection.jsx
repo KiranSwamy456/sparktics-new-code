@@ -5,42 +5,42 @@ import ProjectCard from "./ProjectCard";
 const imageData = [
   {
     title: "100n",
-    src: "/assets/images/image-1.png",
+    src: "/assets/business/100n_external.svg",
     span: "lg:col-span-4",
   },
   {
     title: "Anemone Vinkel",
-    src: "/assets/images/image-2.png",
+    src: "/assets/business/anomene_vinkle_external.svg",
     span: "lg:col-span-5",
   },
   {
     title: "KortYard",
-    src: "/assets/images/image-3.png",
+    src: "/assets/business/kortyard_external.png",
     span: "lg:col-span-3",
   },
   {
     title: "IceTub",
-    src: "/assets/images/image-4.png",
+    src: "/assets/business/icetub_external.png",
     span: "lg:col-span-5",
   },
   {
     title: "rudra techno feeds",
-    src: "/assets/images/image-5.png",
+    src: "/assets/business/rudra_techno_feeds_external.png",
     span: "lg:col-span-3",
   },
   {
     title: "bathula builders",
-    src: "/assets/images/image-6.png",
+    src: "/assets/business/bathula_builders_external.png",
     span: "lg:col-span-4",
   },
   {
     title: "detox bar",
-    src: "/assets/images/image-7.png",
+    src: "/assets/business/detox_bar_external.png",
     span: "lg:col-span-4",
   },
   {
     title: "Anjaneya Jewellers",
-    src: "/assets/images/image-8.png",
+    src: "/assets/business/anjaneya_external.png",
     span: "lg:col-span-8",
   },
 ];

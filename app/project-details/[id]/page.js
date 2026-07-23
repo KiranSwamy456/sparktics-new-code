@@ -6,7 +6,8 @@ const projects = [
   {
     title: "100n",
     slug: "100n",
-    src: "/assets/images/image-1.png",
+    src: "/assets/business/100n_external.svg",
+    bannerSrc: "/assets/business/100n_internal.svg",
     challenges:
       "Develop a compelling brand identity for a quick-service restaurant offering a fresh menu inspired by fruits and vegetables.",
     solutions: [
@@ -19,7 +20,8 @@ const projects = [
   {
     title: "Anemone Vinkel",
     slug: "anemone-vinkel",
-    src: "/assets/images/image-2.png",
+    src: "/assets/business/anomene_vinkle_external.svg",
+    bannerSrc: "/assets/business/anomene_vinkle_internal.svg",
     challenges:
       "Establish a distinctive brand identity for a sustainable handloom clothing brand inspired by tradition and tailored for modern lifestyles.",
     solutions: [
@@ -30,7 +32,8 @@ const projects = [
   {
     title: "KortYard",
     slug: "kortyard",
-    src: "/assets/images/image-3.png",
+    src: "/assets/business/kortyard_external.png",
+    bannerSrc: "/assets/business/kortyard_internal.svg",
     challenges:
       "Create a brand presence and enhance online visibility for a Mediterranean cuisine restaurant through social media management.",
     solutions: [
@@ -41,7 +44,8 @@ const projects = [
   {
     title: "IceTub",
     slug: "icetub",
-    src: "/assets/images/image-4.png",
+    src: "/assets/business/icetub_external.png",
+    bannerSrc: "/assets/business/ice_tub_internal.svg",
     challenges:
       "Establish a compelling brand identity for IceTub, a wellness brand specializing in cold plunges and steam saunas, to attract a health-conscious audience.",
     solutions: [
@@ -53,7 +57,8 @@ const projects = [
   {
     title: "rudra techno feeds",
     slug: "rudra-techno-feeds",
-    src: "/assets/images/image-5.png",
+    src: "/assets/business/rudra_techno_feeds_external.png",
+    bannerSrc: "/assets/business/rudra_techno_feeds_internal.svg",
     challenges:
       "Increase brand visibility for a leading fish and shrimp feed manufacturer through a professional online presence.",
     solutions: [
@@ -64,7 +69,8 @@ const projects = [
   {
     title: "bathula builders",
     slug: "bathula-builders",
-    src: "/assets/images/image-6.png",
+    src: "/assets/business/bathula_builders_external.png",
+    bannerSrc: "/assets/business/bathula_builders_internal.svg",
     challenges:
       "Promote the brand and its portfolio of premium villa construction projects to enhance visibility in the real estate sector.",
     solutions: [
@@ -75,7 +81,8 @@ const projects = [
   {
     title: "detox bar",
     slug: "detox-bar",
-    src: "/assets/images/image-7.png",
+    src: "/assets/business/detox_bar_external.png",
+    bannerSrc: "/assets/business/detox_bar_internal.svg",
     challenges:
       "Create a vibrant brand identity for Detox Bar, a juice brand emphasizing health, wellness, and a refreshing lifestyle.",
     solutions: [
@@ -87,7 +94,8 @@ const projects = [
   {
     title: "Anjaneya Jewellers",
     slug: "anjaneya-jewellers",
-    src: "/assets/images/image-8.png",
+    src: "/assets/business/anjaneya_external.png",
+    bannerSrc: "/assets/business/anjaneya_internal.svg",
     challenges:
       "Introduce a legacy jewellery brand into a new market, Hyderabad, while reinforcing its 50+ years of trust and excellence.",
     solutions: [
@@ -111,7 +119,8 @@ export default async function ProjectDetails({ params }) {
     projects.find((item) => item.title.toLowerCase() === id?.toLowerCase());
 
   const title = project?.title || id?.replace(/-/g, " ") || "Project";
-  const bannerSrc = project?.src || "/assets/images/image-1.png";
+  const bannerSrc =
+    project?.bannerSrc || project?.src || "/assets/images/image-1.png";
   const otherProjects = projects.filter((item) => item.slug !== project?.slug);
 
   return (
